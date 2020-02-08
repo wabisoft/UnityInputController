@@ -360,7 +360,7 @@ PrefabInstance:
     - target: {fileID: 7478178432903337440, guid: a25c31fe62f604df1af049098a0a46d4,
         type: 3}
       propertyPath: m_Name
-      value: controller
+      value: InputController
       objectReference: {fileID: 0}
     - target: {fileID: 7478178432903337442, guid: a25c31fe62f604df1af049098a0a46d4,
         type: 3}

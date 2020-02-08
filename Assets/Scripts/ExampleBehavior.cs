@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestBehavior : InputListener
+public class ExampleBehavior : InputListener
 {
     // Start is called before the first frame update
     void Start()
