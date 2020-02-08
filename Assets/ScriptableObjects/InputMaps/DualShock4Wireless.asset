@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7e6c5e66c4db443e9bb90b316c41fd0, type: 3}
+  m_Name: DualShock4Wireless
+  m_EditorClassIdentifier: 
+  Name: 
+  LeftStick:
+    Horizontal: 0
+    Vertical: 1
+    Press: 10
+    Inversion:
+      Horizontal: 0
+      Vertical: 0
+  RightStick:
+    Horizontal: 2
+    Vertical: 3
+    Press: 11
+    Inversion:
+      Horizontal: 0
+      Vertical: 1
+  DPadAxes:
+    Horizontal: 10
+    Vertical: 11
+    Inversion:
+      Horizontal: 0
+      Vertical: 0
+  L2Analog: 4
+  R2Analog: 5
+  DPadButtons:
+    Left: 20
+    Down: 20
+    Right: 20
+    Up: 20
+  L1: 4
+  R1: 5
+  L2: 6
+  R2: 7
+  ButtonLeft: 0
+  ButtonBottom: 1
+  ButtonRight: 2
+  ButtonTop: 3
+  Start: 9
+  Select: 8
+  Extra1: 12
+  Extra2: 13
+  Extra3: 20
+  Extra4: 20
+  Extra5: 20
+  Extra6: 20
+  Extra7: 20
+  Extra8: 20
+  Extra9: 20
+  Extra10: 20
+  Extra11: 20
