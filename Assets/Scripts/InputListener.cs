@@ -6,8 +6,7 @@ public class InputListener : MonoBehaviour
 {
     public InputController InputController;
 
-    public virtual void Subscribe(InputController inputController)
-    {
+    public virtual void Subscribe(InputController inputController) {
         inputController.OnLeftStick += OnLeftStick;
         inputController.OnRightStick += OnRightStick;
         inputController.OnLeftTrigger += OnLeftTrigger;
@@ -17,8 +16,7 @@ public class InputListener : MonoBehaviour
 
     }
 
-    public virtual void Unsubscribe(InputController inputController)
-    {
+    public virtual void Unsubscribe(InputController inputController) {
         inputController.OnLeftStick -= OnLeftStick;
         inputController.OnRightStick -= OnRightStick;
         inputController.OnLeftTrigger -= OnLeftTrigger;

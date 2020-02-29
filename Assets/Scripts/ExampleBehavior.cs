@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class ExampleBehavior : InputListener
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         Subscribe(InputController);
     }
-
-    void Update() { }
 
     public override void OnLeftStick(float horizontal, float vertical) {
         Debug.Log($"OnLeftStick: ({horizontal}, {vertical})");

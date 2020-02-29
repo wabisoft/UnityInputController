@@ -127,7 +127,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 7478178433275689529}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 075d68105690b469799004d32c50c044, type: 3}
   m_Name: 
@@ -417,6 +417,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7478178432903337443, guid: a25c31fe62f604df1af049098a0a46d4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7478178432903337443, guid: a25c31fe62f604df1af049098a0a46d4,
+        type: 3}
+      propertyPath: testAxes
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7478178432903337444, guid: a25c31fe62f604df1af049098a0a46d4,
         type: 3}
       propertyPath: InputMap
@@ -429,5 +439,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7fa90bd61eb5944e791429b748f35571,
         type: 2}
+    - target: {fileID: 7478178432903337445, guid: a25c31fe62f604df1af049098a0a46d4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a25c31fe62f604df1af049098a0a46d4, type: 3}
