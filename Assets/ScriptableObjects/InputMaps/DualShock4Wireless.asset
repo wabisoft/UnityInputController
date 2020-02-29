@@ -22,14 +22,14 @@ MonoBehaviour:
       Vertical: 0
   RightStick:
     Horizontal: 2
-    Vertical: 3
+    Vertical: 5
     Press: 11
     Inversion:
       Horizontal: 0
       Vertical: 1
   DPadAxes:
-    Horizontal: 10
-    Vertical: 11
+    Horizontal: 6
+    Vertical: 7
     Inversion:
       Horizontal: 0
       Vertical: 0
